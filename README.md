@@ -146,6 +146,8 @@ O MVP será desenvolvido utilizando o Lovable Cloud, aproveitando os recursos de
 - Armazenamento de imagens e arquivos.
 - Integração com WhatsApp para atendimento.
 
+---
+
 # Mega Prompt — Desenvolvimento do Clube Fitness
 
 ## 1. Visão geral
