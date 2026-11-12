@@ -145,3 +145,193 @@ O MVP será desenvolvido utilizando o Lovable Cloud, aproveitando os recursos de
 - Painel administrativo para gerenciar clientes, parceiros e serviços.
 - Armazenamento de imagens e arquivos.
 - Integração com WhatsApp para atendimento.
+
+# Mega Prompt — Desenvolvimento do Clube Fitness
+
+## 1. Visão geral
+
+Crie um webapp responsivo para um **Clube Fitness por Assinatura**, uma plataforma que reúne diferentes serviços relacionados à atividade física em um único lugar.
+
+A proposta é permitir que usuários encontrem academias, personal trainers, treinamento funcional e outras atividades físicas por meio de planos de assinatura.
+
+O projeto começará atendendo Juiz de Fora (MG), mas deverá ter estrutura preparada para expansão para outras cidades.
+
+O objetivo inicial é desenvolver um MVP funcional, moderno e intuitivo, utilizando os recursos de frontend, backend e infraestrutura em nuvem do próprio Lovable.
+
+## 2. Identidade visual
+
+Desenvolva uma identidade visual moderna, leve, sofisticada e relacionada ao universo fitness e bem-estar.
+
+**Paleta de cores:**
+- Verde suave (#A8CFAF): cor principal.
+- Verde escuro (#315C46): títulos, botões e destaques.
+- Verde muito claro (#EDF5EE): fundos e áreas secundárias.
+- Branco (#FFFFFF): fundo principal.
+- Cinza suave (#F3F5F4): cartões e divisórias.
+- Grafite (#303A35): textos principais.
+
+Utilize cores suaves, evitando tons excessivamente vibrantes ou uma aparência agressiva de academia.
+
+**Estilo visual:**
+- Design minimalista e moderno.
+- Interface limpa e organizada.
+- Cantos arredondados.
+- Botões elegantes.
+- Sombras discretas.
+- Ícones simples relacionados à saúde e atividade física.
+- Tipografia moderna e de fácil leitura.
+- Layout responsivo para computadores e dispositivos móveis.
+
+Não gere imagens, ilustrações ou fotografias neste momento. Utilize apenas elementos visuais em CSS.
+
+## 3. Estrutura do site
+
+### Página inicial
+
+Criar uma landing page com:
+
+- Cabeçalho com logotipo textual, menu de navegação e botão de login.
+- Seção principal apresentando o clube fitness.
+- Texto de destaque: "Sua rotina fitness, do seu jeito."
+- Subtítulo explicando que o usuário pode acessar diferentes experiências fitness em uma única assinatura.
+- Botão "Conheça nossos planos".
+- Seção apresentando os benefícios do clube.
+- Seção com modalidades disponíveis.
+- Seção com academias e profissionais parceiros.
+- Seção de planos de assinatura.
+- Perguntas frequentes.
+- Rodapé com informações de contato e redes sociais.
+
+### Página de planos
+
+Apresentar os planos disponíveis em cartões organizados.
+
+Inicialmente, cadastrar três planos demonstrativos:
+
+- **Basic:** acesso a serviços e modalidades selecionadas.
+- **Plus:** maior variedade de serviços e atividades.
+- **Premium:** acesso ampliado e benefícios exclusivos.
+
+Os preços e benefícios deverão ser editáveis pelo administrador.
+
+Adicionar botão de contratação em cada plano.
+
+### Catálogo de serviços
+
+Criar uma página para explorar os serviços disponíveis, incluindo:
+
+- Academias.
+- Personal trainers.
+- Treinamento funcional.
+- Pilates.
+- Yoga.
+- Outras atividades físicas.
+
+Adicionar filtros por categoria e localização.
+
+Cada serviço deverá possuir uma página de detalhes com nome, descrição, endereço, categoria, parceiro responsável e informações de acesso.
+
+Utilizar dados demonstrativos inicialmente.
+
+### Cadastro e autenticação
+
+Implementar:
+
+- Cadastro com nome, e-mail e senha.
+- Login e logout.
+- Recuperação de senha.
+- Autenticação segura.
+- Diferenciação entre usuários comuns e administradores.
+
+Utilizar a autenticação integrada do Lovable Cloud.
+
+### Área do assinante
+
+Criar um painel exclusivo para usuários autenticados, contendo:
+
+- Dados pessoais.
+- Plano contratado.
+- Status da assinatura.
+- Histórico de assinaturas.
+- Serviços disponíveis conforme o plano.
+- Histórico de utilização.
+- Opção de atualizar informações pessoais.
+
+### Painel administrativo
+
+Criar uma área restrita aos administradores, permitindo:
+
+- Cadastrar, editar e excluir planos.
+- Cadastrar, editar e excluir serviços.
+- Gerenciar academias e profissionais parceiros.
+- Visualizar usuários cadastrados.
+- Consultar assinaturas.
+- Gerenciar categorias e modalidades.
+- Visualizar indicadores básicos do negócio.
+
+## 4. Backend e Lovable Cloud
+
+Utilize os recursos nativos do Lovable Cloud para construir a infraestrutura completa da aplicação.
+
+Implementar:
+
+- Banco de dados para usuários, parceiros, serviços, categorias, planos e assinaturas.
+- Autenticação e gerenciamento de sessões.
+- Armazenamento de arquivos.
+- Funções de backend para operações e regras de negócio.
+- Controle de permissões por perfil.
+- Integração segura entre frontend e backend.
+
+Criar uma estrutura organizada de tabelas e relacionamentos.
+
+**Segurança:**
+- Implementar políticas de acesso aos dados (RLS).
+- Usuários comuns só podem acessar e alterar seus próprios dados.
+- Administradores possuem permissões de gerenciamento.
+- Nunca expor chaves secretas no frontend.
+- Validar os dados também no backend.
+
+## 5. Pagamentos e assinaturas
+
+Preparar a estrutura para integração com gateway de pagamento, permitindo futuramente:
+
+- Contratação de planos.
+- Pagamentos recorrentes.
+- Controle de vencimentos.
+- Atualização do status da assinatura.
+- Cancelamento de planos.
+
+Não simular pagamentos como se fossem reais. Caso não exista integração configurada, apresentar o fluxo como demonstrativo e deixar a arquitetura preparada para integração futura.
+
+## 6. WhatsApp
+
+Adicionar botões de atendimento pelo WhatsApp em locais estratégicos do site.
+
+Preparar a estrutura para futura integração com chatbot, permitindo que os usuários consultem planos, serviços e informações sobre assinaturas.
+
+## 7. Experiência do usuário
+
+Priorizar uma navegação simples, intuitiva e rápida.
+
+O visitante deverá conseguir entender a proposta do clube, conhecer os serviços e visualizar os planos facilmente.
+
+O assinante deverá encontrar suas informações e serviços sem dificuldades.
+
+## 8. Requisitos técnicos
+
+- Desenvolver como webapp responsivo.
+- Utilizar componentes reutilizáveis.
+- Organizar o código para facilitar futuras expansões.
+- Utilizar Lovable Cloud para backend e infraestrutura.
+- Garantir que os dados sejam persistidos no banco de dados.
+- Implementar estados de carregamento, sucesso e erro.
+- Não utilizar dados fictícios como se fossem informações reais de clientes ou parceiros.
+- Criar conteúdo demonstrativo identificado como exemplo.
+
+## 9. Diretriz final
+
+Desenvolva primeiro uma experiência visual completa e funcional, com todas as páginas e fluxos principais conectados ao backend.
+
+O projeto deve ter aparência de uma startup fitness profissional, e não de um template genérico.
+
+**Importante:** não criar imagens neste momento. Priorizar a identidade visual, a organização das informações, a experiência do usuário e o funcionamento real das funcionalidades implementadas.
