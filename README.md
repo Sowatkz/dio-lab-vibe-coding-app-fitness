@@ -1,62 +1,64 @@
-# Clube Fitness por Assinatura
+# 🏋️ Clube Fitness por Assinatura
 
-## Dor escolhida
+## 🎯 Dor escolhida
 
 Muitas pessoas desejam cuidar da saúde e melhorar o condicionamento físico, mas encontram dificuldades para organizar e manter uma rotina de exercícios. Além disso, contratar separadamente serviços como academia, personal trainer e treinamento funcional pode gerar custos elevados e dificultar o acesso.
 
-## Por que essa dor vale um negócio?
+## 💡 Por que essa dor vale um negócio?
 
 Existe uma demanda crescente por soluções que ofereçam praticidade, flexibilidade e acompanhamento fitness a preços acessíveis. Um clube fitness por assinatura reúne diferentes serviços em uma única plataforma, proporcionando conveniência aos clientes e receita recorrente para o negócio.
 
 ---
 
-# 1. Tamanho de mercado — TAM, SAM e SOM
+# 1. 📊 Tamanho de mercado — TAM, SAM e SOM
 
 **Modelo de negócio:** clube fitness por assinatura, que conecta clientes a diferentes serviços, como academias, personal trainers, treinamento funcional e outras atividades físicas, por meio de uma única plataforma.
 
 Para estimar o mercado, vamos considerar uma mensalidade média hipotética de R$ 99,00 por assinante. Os valores são estimativas para validação da ideia, não faturamentos já comprovados.
 
-### Premissas utilizadas
+### 📌 Premissas utilizadas
 
 - Mensalidade média: R$ 99,00.
 - Penetração do mercado fitness: aproximadamente 7% da população brasileira, conforme estimativa setorial.
 - População: estimativas do IBGE para 2025.
 - Receita calculada considerando 12 mensalidades por ano.
 
-Grupo Bittencourt+2
-
-### TAM — Mercado total (Brasil)
+### 🇧🇷 TAM — Mercado total (Brasil)
 
 O TAM representa o mercado potencial total no Brasil.
 
-- População: 213,4 milhões.
-- Público potencial estimado (7%): 14,94 milhões de pessoas.
-- Receita potencial anual: R$ 17,75 bilhões.
+| Indicador | Estimativa |
+|---|---:|
+| População | 213,4 milhões |
+| Público potencial estimado (7%) | 14,94 milhões de pessoas |
+| Receita potencial anual | R$ 17,75 bilhões |
 
-### SAM — Mercado disponível (Minas Gerais)
+### 📍 SAM — Mercado disponível (Minas Gerais)
 
 O SAM representa o mercado que pode ser atendido inicialmente dentro de Minas Gerais.
 
-- População: 21,39 milhões.
-- Público potencial estimado (7%): 1,50 milhão de pessoas.
-- Receita potencial anual: R$ 1,78 bilhão.
+| Indicador | Estimativa |
+|---|---:|
+| População | 21,39 milhões |
+| Público potencial estimado (7%) | 1,50 milhão de pessoas |
+| Receita potencial anual | R$ 1,78 bilhão |
 
-IBGE FTP+1
-
-### SOM — Mercado alcançável (Juiz de Fora)
+### 🏙️ SOM — Mercado alcançável (Juiz de Fora)
 
 O SOM representa a parcela do mercado que o negócio pretende conquistar inicialmente.
 
-- População: 567.730 habitantes.
-- Público potencial estimado (7%): 39.741 pessoas.
-- Meta inicial: conquistar 1% desse público.
-- Clientes estimados: aproximadamente 397 assinantes.
-- Receita mensal estimada: R$ 39.303.
-- Receita anual estimada: R$ 471.636.
+| Indicador | Estimativa |
+|---|---:|
+| População | 567.730 habitantes |
+| Público potencial estimado (7%) | 39.741 pessoas |
+| Meta inicial | Conquistar 1% desse público |
+| Clientes estimados | Aproximadamente 397 assinantes |
+| Receita mensal estimada | R$ 39.303 |
+| Receita anual estimada | R$ 471.636 |
 
 ---
 
-# 2. Business Model Canvas
+# 2. 🧩 Business Model Canvas
 
 **Proposta de negócio:** criar um clube fitness que reúne diferentes modalidades e serviços de atividade física em uma única assinatura, oferecendo flexibilidade, praticidade e economia aos clientes.
 
@@ -130,7 +132,7 @@ O SOM representa a parcela do mercado que o negócio pretende conquistar inicial
 
 ---
 
-# 3. MVP — Webapp desenvolvido no Lovable
+# 3. 🚀 MVP — Webapp desenvolvido no Lovable
 
 O MVP será desenvolvido utilizando o Lovable Cloud, aproveitando os recursos de backend e infraestrutura integrados.
 
@@ -148,7 +150,7 @@ O MVP será desenvolvido utilizando o Lovable Cloud, aproveitando os recursos de
 
 ---
 
-# Mega Prompt — Desenvolvimento do Clube Fitness
+# 📝 Mega Prompt — Desenvolvimento do Clube Fitness
 
 ## 1. Visão geral
 
@@ -165,6 +167,7 @@ O objetivo inicial é desenvolver um MVP funcional, moderno e intuitivo, utiliza
 Desenvolva uma identidade visual moderna, leve, sofisticada e relacionada ao universo fitness e bem-estar.
 
 **Paleta de cores:**
+
 - Verde suave (#A8CFAF): cor principal.
 - Verde escuro (#315C46): títulos, botões e destaques.
 - Verde muito claro (#EDF5EE): fundos e áreas secundárias.
@@ -175,6 +178,7 @@ Desenvolva uma identidade visual moderna, leve, sofisticada e relacionada ao uni
 Utilize cores suaves, evitando tons excessivamente vibrantes ou uma aparência agressiva de academia.
 
 **Estilo visual:**
+
 - Design minimalista e moderno.
 - Interface limpa e organizada.
 - Cantos arredondados.
@@ -287,6 +291,7 @@ Implementar:
 Criar uma estrutura organizada de tabelas e relacionamentos.
 
 **Segurança:**
+
 - Implementar políticas de acesso aos dados (RLS).
 - Usuários comuns só podem acessar e alterar seus próprios dados.
 - Administradores possuem permissões de gerenciamento.
@@ -338,12 +343,16 @@ O projeto deve ter aparência de uma startup fitness profissional, e não de um 
 
 **Importante:** não criar imagens neste momento. Priorizar a identidade visual, a organização das informações, a experiência do usuário e o funcionamento real das funcionalidades implementadas.
 
-# Resultado Final
-Acesse o protótipo funcional
-https://clube-fitness-ia.lovable.app/
+---
 
-Preview
+# 🎉 Resultado Final
+
+**Acesse o protótipo funcional:**
+
+[https://clube-fitness-ia.lovable.app/](https://clube-fitness-ia.lovable.app/)
+
+## Preview
+
 <img width="1289" height="595" alt="image" src="https://github.com/user-attachments/assets/eae50eea-f73b-4111-90de-61b81402ac6e" />
 
 <img width="1294" height="595" alt="image" src="https://github.com/user-attachments/assets/8b5fc293-ed2b-4f89-b738-d59b54e1e46b" />
-
