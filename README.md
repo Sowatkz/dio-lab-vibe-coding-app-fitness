@@ -337,3 +337,13 @@ Desenvolva primeiro uma experiência visual completa e funcional, com todas as p
 O projeto deve ter aparência de uma startup fitness profissional, e não de um template genérico.
 
 **Importante:** não criar imagens neste momento. Priorizar a identidade visual, a organização das informações, a experiência do usuário e o funcionamento real das funcionalidades implementadas.
+
+# Resultado Final
+Acesse o protótipo funcional
+https://clube-fitness-ia.lovable.app/
+
+Preview
+<img width="1289" height="595" alt="image" src="https://github.com/user-attachments/assets/eae50eea-f73b-4111-90de-61b81402ac6e" />
+
+<img width="1294" height="595" alt="image" src="https://github.com/user-attachments/assets/8b5fc293-ed2b-4f89-b738-d59b54e1e46b" />
+
